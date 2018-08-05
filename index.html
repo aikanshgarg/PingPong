@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2 player Ping-Pong</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="startBall()">
+
+	<audio autoplay="true" src="song.mp3"></audio>
+
+	<div id="score_div_1">Player1 : <span id="score_1">0</span></div>
+	<div id="score_div_2">Player2 : <span id="score_2">0</span></div> 
+
+	<div id="player1"></div>
+		
+	<div id="ball"></div>
+
+	<div id="player2"></div>
+
+	<div id="restart_div">
+		<button id="restart_btn">Play again!</button>
+		<div id="winner_div"> Hey, <span style="color: yellow;">**name**</span> is the new champion!</div>
+	</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

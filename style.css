@@ -1,0 +1,114 @@
+body{
+	background-color: #1A1110;
+	margin: 0;
+}
+
+#ball{
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	height: 30px;
+	width: 30px;
+	position: fixed;
+	border-radius: 50%;
+	
+	/*top: 50%;*/
+	left: 50%;	
+}
+#player1{
+	height: 200px;
+	width: 20px;
+	background-color: #CC3336;
+	position: fixed;
+	top: 30px;
+	border-color: black;
+	border-style: solid;
+}
+#player2{
+	height: 200px;
+	width: 20px;
+	background-color: #009DC4;
+	position: fixed;
+	top: 30px;
+	right: 0;
+	border-color: black;
+	border-style: solid;
+}
+
+#score_div_1{
+	position: absolute;
+	left: 20%;
+	color: #CC3336;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+#score_div_2{
+	position: absolute;
+	left: 80%;
+	color: #009DC4;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+#score_1{
+	font-size: 25px;
+	color: white;
+	font-weight: bolder;
+}
+
+#score_2{
+	font-size: 25px;
+	color: white;
+	font-weight: bolder;
+}
+
+#restart_div{
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    top: 50%;
+    background-color: black;
+    color: black;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    display: none;
+}
+#restart_btn{
+	position: relative;
+	height: 20%;
+	width: 100%;
+	font-size: 40px;
+	font-family: sans-serif;
+	background-color: black;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+#winner_div {
+	position: absolute;
+    width: 100%;
+    height: 50%;
+    padding-top: 60px;
+    background-color: #EC407A;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 10;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 60px;
+    font-family: sans-serif;
+
+}
+/* Standard syntax */
+@keyframes example {
+    from {background-color: #EC407A;}
+    to {background-color: #4A148C;}
+}
+
+audio{
+	display: none;
+}
